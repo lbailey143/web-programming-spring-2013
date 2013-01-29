@@ -1,0 +1,15 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Committer: unknown <lbailey@AMS-9-DC5700.tsra.org>
+#
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	new file:   lesson-02/css_lrb.css
+#	new file:   lesson-02/index.php
+#	new file:   lesson-02/spacer.gif
+#
+

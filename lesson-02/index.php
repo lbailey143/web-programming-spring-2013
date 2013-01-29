@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Advanced Web Programming with PHP &amp; MySQL</title>
+
+<link href="css_lrb.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<div class="container">
+  <div class="header"><!-- end .header -->Advanced Web Programming ~ Lynn Bailey ~ Section 5250</div>
+  <div class="sidebar1">
+    <ul class="nav">
+      <li><a href="index.php">about me</a></li>
+      <li><a href="#">assignment x</a></li>
+      <li><a href="#">assignment y</a></li>
+      <li><a href="#">assignment z</a></li>
+      <li><a href="#">final project</a></li>
+    </ul>
+    <p class="checkers"><a href="http://validator.w3.org/check?uri=referer">Check HTML</a></p>
+    <p class="checkers"><a href="http://jigsaw.w3.org/css-validator/check/referer">
+    Check CSS</a></p>
+    <!-- end .sidebar1 --></div>
+  <div class="content">
+    <h1>Just the facts, friends!</h1>
+    <p>I'm a retired school administrator who just can't seem to get the retirement part right. I'm working a 40 hour bridge job, serving on several boards and committees, managing a senior community, and taking SRJC online courses. </p>
+    <p>So far I've taken Photoshop I and II, HTML/CSS A &amp; B, and Dreamweaver I. I'm currently enrolled for Adv Web Programming and Flash Animation. I'm sure I'll keep taking the Adobe classes until I run out of online classes to take. I live over on the coast, so the online option is excellent for me.</p>
+    
+<?php
+	$centennial = '2046-04-19';
+					
+	function countdown ($centennial) {
+		return (strtotime ($centennial) - strtotime ('now'))/(60*60*24*365.25) ;
+	}
+	$years = countdown ($centennial) ;
+	$years = $years ;
+	$years = intval ($years) ;
+?>
+
+<?php
+	$centennial = '2046-04-19';
+					
+	function remainder ($centennial) {
+		return ((strtotime ($centennial) - strtotime ('now'))%(60*60*24*365.25))/(60*60*24) ;
+	}
+	
+	$days = remainder ($centennial) ;
+	$days = $days ;
+	$days = intval ($days) ;
+?>
+
+      
+    <p>I won't reveal my age directly, but will tell you that it will be <span class="boldface"><?php echo $years ?></span> years and <span class="boldface"><?php echo $days ?></span> days until I celebrate my personal centennial.<!-- end .content --></p>
+  </div>
+  <div class="footer">
+    <p>Lynn Bailey ~ Advanced Web Programming~ Section 5250 ~ Spring 2013</p>
+    <p><a href="mailto:lbailey2@aol.com">lbailey2@aol.com</a></p>
+    <!-- end .footer --></div>
+<!-- end .container --></div>
+</body>
+</html>
