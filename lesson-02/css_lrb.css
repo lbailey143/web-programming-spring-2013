@@ -104,7 +104,8 @@ ul.nav a, ul.nav a:visited { /* grouping these selectors makes sure that your li
 }
 ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* this changes the background and text color for both mouse and keyboard navigators */
 	color: #FFF;
-	background-color: #AE9DAB;
+	/*background-color: #AE9DAB;*/
+	background-color: #948467;
 }
 
 /* ~~ The footer ~~ */
