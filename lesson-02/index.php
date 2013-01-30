@@ -45,14 +45,46 @@
 	function remainder ($centennial) {
 		return ((strtotime ($centennial) - strtotime ('now'))%(60*60*24*365.25))/(60*60*24) ;
 	}
-	
 	$days = remainder ($centennial) ;
 	$days = $days ;
 	$days = intval ($days) ;
 ?>
 
+<?php
+	$centennial = '2046-04-19';
+					
+	function hours ($centennial) {
+		return ((strtotime ($centennial) - strtotime ('now'))%(60*60))/(60*60) ;
+	}
+	$hours = hours ($centennial) ;
+	$hours = $hours ;
+	$hours = intval ($hours) ;
+?>
+
+<?php
+	$centennial = '2046-04-19';
+					
+	function minutes ($centennial) {
+		return ((strtotime ($centennial) - strtotime ('now'))%(60*60))/(60) ;
+	}
+	$minutes = minutes ($centennial) ;
+	$minutes = $minutes ;
+	$minutes = intval ($minutes) ;
+?>
+
+<?php
+	$centennial = '2046-04-19';
+					
+	function seconds ($centennial) {
+		return (strtotime ($centennial) - strtotime ('now'))%(60) ;
+	}
+	$seconds = seconds ($centennial) ;
+	$seconds = $seconds ;
+	$seconds = intval ($seconds) ;
+?>
+
       
-    <p>I won't reveal my age directly, but will tell you that it will be <span class="boldface"><?php echo $years ?></span> years and <span class="boldface"><?php echo $days ?></span> days until I celebrate my personal centennial.<!-- end .content --></p>
+    <p>I won't reveal my age directly, but will tell you that it will be <span class="boldface"><?php echo $years ?></span> years, <span class="boldface"><?php echo $days ?></span> day(s), <span class="boldface"><?php echo $hours ?></span> hour(s), <span class="boldface"><?php echo $minutes ?></span> minute(s), and <span class="boldface"><?php echo $seconds ?></span> second(s) until I celebrate my personal centennial.<!-- end .content --></p>
   </div>
   <div class="footer">
     <p>Lynn Bailey ~ Advanced Web Programming~ Section 5250 ~ Spring 2013</p>
