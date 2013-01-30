@@ -85,6 +85,7 @@
 
       
     <p>I won't reveal my age directly, but will tell you that it will be <span class="boldface"><?php echo $years ?></span> years, <span class="boldface"><?php echo $days ?></span> day(s), <span class="boldface"><?php echo $hours ?></span> hour(s), <span class="boldface"><?php echo $minutes ?></span> minute(s), and <span class="boldface"><?php echo $seconds ?></span> second(s) until I celebrate my personal centennial. You are invited to the party!<!-- end .content --></p>
+    <p>Refresh this page to verify that the seconds actually do count down!</p>
   </div>
   <div class="footer">
     <p>Lynn Bailey ~ Advanced Web Programming~ Section 5250 ~ Spring 2013</p>
