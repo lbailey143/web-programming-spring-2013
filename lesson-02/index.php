@@ -54,7 +54,7 @@
 	$centennial = '2046-04-19';
 					
 	function hours ($centennial) {
-		return ((strtotime ($centennial) - strtotime ('now'))%(60*60))/(60*60) ;
+		return ((strtotime ($centennial) - strtotime ('now'))%(60*60*24))/(60*60) ;
 	}
 	$hours = hours ($centennial) ;
 	$hours = $hours ;
@@ -84,7 +84,7 @@
 ?>
 
       
-    <p>I won't reveal my age directly, but will tell you that it will be <span class="boldface"><?php echo $years ?></span> years, <span class="boldface"><?php echo $days ?></span> day(s), <span class="boldface"><?php echo $hours ?></span> hour(s), <span class="boldface"><?php echo $minutes ?></span> minute(s), and <span class="boldface"><?php echo $seconds ?></span> second(s) until I celebrate my personal centennial.<!-- end .content --></p>
+    <p>I won't reveal my age directly, but will tell you that it will be <span class="boldface"><?php echo $years ?></span> years, <span class="boldface"><?php echo $days ?></span> day(s), <span class="boldface"><?php echo $hours ?></span> hour(s), <span class="boldface"><?php echo $minutes ?></span> minute(s), and <span class="boldface"><?php echo $seconds ?></span> second(s) until I celebrate my personal centennial. You are invited to the party!<!-- end .content --></p>
   </div>
   <div class="footer">
     <p>Lynn Bailey ~ Advanced Web Programming~ Section 5250 ~ Spring 2013</p>
