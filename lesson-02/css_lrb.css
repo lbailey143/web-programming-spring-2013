@@ -14,11 +14,13 @@ ul, ol, dl { /* Due to variations between browsers, it's best practices to zero 
 	padding: 0;
 	margin: 0;
 }
+
 h1, h2, h3, h4, h5, h6, p {
 	margin-top: 0;	 /* removing the top margin gets around an issue where margins can escape from their containing div. The remaining bottom margin will hold it away from any elements that follow. */
 	padding-right: 15px;
 	padding-left: 15px; /* adding the padding to the sides of the elements within the divs, instead of the divs themselves, gets rid of any box model math. A nested div with side padding can also be used as an alternate method. */
 }
+
 a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
 	border: none;
 }
@@ -28,10 +30,12 @@ a:link {
 	color: #42413C;
 	text-decoration: underline; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
 }
+
 a:visited {
 	color: #6E6C64;
 	text-decoration: underline;
 }
+
 a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
 	text-decoration: none;
 }
@@ -73,6 +77,7 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 	font-size: medium;
 	background-color: #ded2c9;
 }
+
 .content {
 
 	padding: 10px 0;
@@ -91,10 +96,12 @@ ul.nav {
 	border-top: 1px solid #666; /* this creates the top border for the links - all others are placed using a bottom border on the LI */
 	margin-bottom: 15px; /* this creates the space between the navigation on the content below */
 }
+
 ul.nav li {
 	border-bottom: 1px solid #666; /* this creates the button separation */
 	color: #FFF;
 }
+
 ul.nav a, ul.nav a:visited { /* grouping these selectors makes sure that your links retain their button look even after being visited */
 	padding: 5px 5px 5px 15px;
 	display: block; /* this gives the link block properties causing it to fill the whole LI containing it. This causes the entire area to react to a mouse click. */
@@ -102,6 +109,7 @@ ul.nav a, ul.nav a:visited { /* grouping these selectors makes sure that your li
 	text-decoration: none;
 	background: #ded2c9;
 }
+
 ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* this changes the background and text color for both mouse and keyboard navigators */
 	color: #FFF;
 	/*background-color: #AE9DAB;*/
@@ -124,10 +132,12 @@ ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* this changes the background
 	float: right;
 	margin-left: 8px;
 }
+
 .fltlft { /* this class can be used to float an element left in your page. The floated element must precede the element it should be next to on the page. */
 	float: left;
 	margin-right: 8px;
 }
+
 .clearfloat { /* this class can be placed on a <br /> or empty div as the final element following the last floated div (within the #container) if the #footer is removed or taken out of the #container */
 	clear:both;
 	height:0;
@@ -139,6 +149,7 @@ ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* this changes the background
 	font-size: large;
 	font-weight: bold;
 }
+
 .checkers {
 	font-size: x-small;
 	font-style: italic;

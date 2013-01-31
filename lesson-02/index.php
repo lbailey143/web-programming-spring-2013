@@ -10,7 +10,7 @@
 <body>
 
 <div class="container">
-  <div class="header"><!-- end .header -->Advanced Web Programming ~ Lynn Bailey ~ Section 5250</div>
+  <div class="header">Advanced Web Programming ~ Lynn Bailey ~ Section 5250</div><!-- end .header -->
   <div class="sidebar1">
     <ul class="nav">
       <li><a href="index.php">about me</a></li>
@@ -31,55 +31,39 @@
 <?php
 	$centennial = '2046-04-19';
 					
-	function countdown ($centennial) {
+	function years ($centennial) {
 		return (strtotime ($centennial) - strtotime ('now'))/(60*60*24*365.25) ;
 	}
-	$years = countdown ($centennial) ;
-	$years = $years ;
-	$years = intval ($years) ;
-?>
-
-<?php
-	$centennial = '2046-04-19';
-					
-	function remainder ($centennial) {
+	
+	function days ($centennial) {
 		return ((strtotime ($centennial) - strtotime ('now'))%(60*60*24*365.25))/(60*60*24) ;
 	}
-	$days = remainder ($centennial) ;
-	$days = $days ;
-	$days = intval ($days) ;
-?>
-
-<?php
-	$centennial = '2046-04-19';
-					
+	
 	function hours ($centennial) {
 		return ((strtotime ($centennial) - strtotime ('now'))%(60*60*24))/(60*60) ;
 	}
-	$hours = hours ($centennial) ;
-	$hours = $hours ;
-	$hours = intval ($hours) ;
-?>
-
-<?php
-	$centennial = '2046-04-19';
-					
+	
 	function minutes ($centennial) {
 		return ((strtotime ($centennial) - strtotime ('now'))%(60*60))/(60) ;
 	}
-	$minutes = minutes ($centennial) ;
-	$minutes = $minutes ;
-	$minutes = intval ($minutes) ;
-?>
-
-<?php
-	$centennial = '2046-04-19';
-					
+	
 	function seconds ($centennial) {
 		return (strtotime ($centennial) - strtotime ('now'))%(60) ;
 	}
+	
+	$years = years ($centennial) ;
+	$years = intval ($years) ;
+	
+	$days = days ($centennial) ;
+	$days = intval ($days) ;
+	
+	$hours = hours ($centennial) ;
+	$hours = intval ($hours) ;
+	
+	$minutes = minutes ($centennial) ;
+	$minutes = intval ($minutes) ;
+
 	$seconds = seconds ($centennial) ;
-	$seconds = $seconds ;
 	$seconds = intval ($seconds) ;
 ?>
 
