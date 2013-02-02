@@ -28,6 +28,8 @@
     <p class="checkers"><a href="http://validator.w3.org/check?uri=referer">Check HTML</a></p>
     <p class="checkers"><a href="http://jigsaw.w3.org/css-validator/check/referer">
     Check CSS</a></p>
+    <p>&nbsp;</p>
+    <p class="center"><img src="lrb.png" width="88" height="169" alt="Lynn Bailey" title="Lynn Bailey"></p>
     <!-- End .sidebar1 --></div>
     
   <!-- Begin .content -->  

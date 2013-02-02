@@ -154,3 +154,9 @@ ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* this changes the background
 	font-size: x-small;
 	font-style: italic;
 }
+
+.center {
+	text-align:center;
+}
+
+
