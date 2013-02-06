@@ -128,7 +128,6 @@ ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* this changes the background
 	float: left;
 	margin-right: 8px;
 }
-
 .clearfloat { /* this class can be placed on a <br /> or empty div as the final element following the last floated div (within the #container) if the #footer is removed or taken out of the #container */
 	clear:both;
 	height:0;
@@ -148,3 +147,8 @@ ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* this changes the background
 .center {
 	text-align:center;
 }
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 71732e5fa8c0c65e704463c0862c44517360b3e1

@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>About Me</title>
+<title>Advanced Web Programming with PHP &amp; MySQL</title>
 
 <link href="css_lrb.css" rel="stylesheet" type="text/css">
 </head>
@@ -22,10 +22,18 @@
     <p class="checkers"><a href="http://validator.w3.org/check?uri=referer">Check HTML</a></p>
     <p class="checkers"><a href="http://jigsaw.w3.org/css-validator/check/referer">
     Check CSS</a></p>
+<<<<<<< HEAD
     <p class="center"><img src="lrb.png" width="88" height="169" alt="Lynn Bailey" title="Lynn Bailey"></p>
     </div>
     <!-- end .sidebar1 -->
      
+=======
+    <p>&nbsp;</p>
+    <p class="center"><img src="lrb.png" width="88" height="169" alt="Lynn Bailey" title="Lynn Bailey"></p>
+    <!-- End .sidebar1 --></div>
+    
+  <!-- Begin .content -->  
+>>>>>>> 71732e5fa8c0c65e704463c0862c44517360b3e1
   <div class="content">
     <h1>Just the facts, friends!</h1>
     <p>I'm a retired school administrator who just can't seem to get the retirement part right. I'm working a 40 hour bridge job, serving on several boards and committees, managing a senior community, and taking SRJC online courses. </p>
