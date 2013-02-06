@@ -2,8 +2,8 @@
 body {
 	margin: 0;
 	padding: 0;
-	color: #4E473D;
-	background-color: #dfd6cf	;
+	color: #4C1B1B;
+	background-color: #F6E497;
 	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 100%;
 	line-height: 1.2;
@@ -14,24 +14,28 @@ ul, ol, dl { /* Due to variations between browsers, it's best practices to zero 
 	padding: 0;
 	margin: 0;
 }
+
 h1, h2, h3, h4, h5, h6, p {
 	margin-top: 0;	 /* removing the top margin gets around an issue where margins can escape from their containing div. The remaining bottom margin will hold it away from any elements that follow. */
 	padding-right: 15px;
 	padding-left: 15px; /* adding the padding to the sides of the elements within the divs, instead of the divs themselves, gets rid of any box model math. A nested div with side padding can also be used as an alternate method. */
 }
+
 a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
 	border: none;
 }
 
 /* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ */
 a:link {
-	color: #42413C;
+	color: #FCFAE1;
 	text-decoration: underline; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
 }
+
 a:visited {
-	color: #6E6C64;
+	color: #FCFAE1;
 	text-decoration: underline;
 }
+
 a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
 	text-decoration: none;
 }
@@ -40,8 +44,8 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 .container {
 	width: 960px;
 	margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout */
-	background-color: #FFF;
-	background-image: url(spacer.gif);
+	background-color: #FCFAE1;
+	background-image: url(spacer_hw2.gif);
 	background-repeat: repeat-y;
 	background-position: left top;
 }
@@ -50,8 +54,8 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 .header {
 	text-align: center;
 	font-size: x-large;
-	background-color: #948467;
-	color: #FFF;
+	background-color: #4C1B1B;
+	color: #FCFAE1;
 	padding: 10px;
 }
 
@@ -71,8 +75,9 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 	width: 180px;
 	padding-bottom: 10px;
 	font-size: medium;
-	background-color: #ded2c9;
+	background-color: #BD8D46;
 }
+
 .content {
 
 	padding: 10px 0;
@@ -91,28 +96,32 @@ ul.nav {
 	border-top: 1px solid #666; /* this creates the top border for the links - all others are placed using a bottom border on the LI */
 	margin-bottom: 15px; /* this creates the space between the navigation on the content below */
 }
+
 ul.nav li {
 	border-bottom: 1px solid #666; /* this creates the button separation */
 	color: #FFF;
 }
+
 ul.nav a, ul.nav a:visited { /* grouping these selectors makes sure that your links retain their button look even after being visited */
 	padding: 5px 5px 5px 15px;
 	display: block; /* this gives the link block properties causing it to fill the whole LI containing it. This causes the entire area to react to a mouse click. */
 	width: 160px;  /*this width makes the entire button clickable for IE6. If you don't need to support IE6, it can be removed. Calculate the proper width by subtracting the padding on this link from the width of your sidebar container. */
 	text-decoration: none;
-	background: #ded2c9;
+	color: #4C1B1B;
+	background: #BD8D46;
 }
+
 ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* this changes the background and text color for both mouse and keyboard navigators */
-	color: #FFF;
+	color: #4C1B1B;
 	/*background-color: #AE9DAB;*/
-	background-color: #948467;
+	background-color: #FCFAE1;
 }
 
 /* ~~ The footer ~~ */
 .footer {
 	padding: 10px 0;
-	background: #948467;
-	color: #FFF;
+	background: #4C1B1B;
+	color: #FCFAE1;
 	text-align:center;
 	font-size:small;
 	position: relative;/* this gives IE6 hasLayout to properly clear */
@@ -124,10 +133,12 @@ ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* this changes the background
 	float: right;
 	margin-left: 8px;
 }
+
 .fltlft { /* this class can be used to float an element left in your page. The floated element must precede the element it should be next to on the page. */
 	float: left;
 	margin-right: 8px;
 }
+
 .clearfloat { /* this class can be placed on a <br /> or empty div as the final element following the last floated div (within the #container) if the #footer is removed or taken out of the #container */
 	clear:both;
 	height:0;
@@ -139,9 +150,15 @@ ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* this changes the background
 	font-size: large;
 	font-weight: bold;
 }
+
 .checkers {
 	font-size: x-small;
 	font-style: italic;
+}
+
+#you {
+	padding: 15px 0;
+	color: #360;
 }
 
 .center {
