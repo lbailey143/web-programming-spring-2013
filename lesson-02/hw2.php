@@ -20,11 +20,11 @@
   <!-- Begin .sidebar1 -->
   <div class="sidebar1">
     <ul class="nav">
-      <li><a href="index.php">about me</a></li>
-      <li><a href="hw2.php">hw 2 ~ about you</a></li>
-      <li><a href="#">assignment y</a></li>
-      <li><a href="#">assignment z</a></li>
-      <li><a href="#">final project</a></li>
+      <li><a href="bootstrap/index.html">Home</a></li>
+      <li><a href="hw1.php">About Me</a></li>
+      <li><a href="hw2.php">About You</a></li>
+      <li><a href="#">Assignment z</a></li>
+      <li><a href="#">Final Project</a></li>
     </ul>
     <p class="checkers"><a href="http://validator.w3.org/check?uri=referer">Check HTML</a></p>
     <p class="checkers"><a href="http://jigsaw.w3.org/css-validator/check/referer">
@@ -35,9 +35,9 @@
     
   <!-- Begin .content -->  
   <div class="content">
-    <h1>Here's the part from last time that was "About me"</h1>
+    <h2>Here's the part from last time that was "About me"</h2>
     <p>I&rsquo;m a retired school administrator who just can&rsquo;t seem to get the retirement part right. I&rsquo;m working a 40 hour bridge job, serving on several boards and committees, managing a senior community, and taking SRJC online courses. </p>
-    <p>So far I&rsquo;ve taken Photoshop I and II, HTML/CSS A &amp; B, and Dreamweaver I. I&rsquo;m currently enrolled for Adv Web Programming and Flash Animation. I&rsquo;m sure I&rsquo;ll keep taking the Adobe classes until I run out of online classes to take. I live over on the coast, so the online option is excellent for me.</p>
+    
 
   <!-- Begin PHP -->
 <?php
@@ -87,7 +87,7 @@
     <p>Refresh this page to verify that the seconds actually do count down!</p>
     
     <h2>Now, let's find out your age in the same sneaky way!</h2>
-    <p>(Only the PHP genie will see your actual info.  Everyone else will have to do the math._</p>
+    <p>(Only the PHP genie will see your actual info.  Everyone else will have to do the math.)</p>
  
  
  
@@ -137,6 +137,7 @@
  <div id="you">
  
  <p>Thank you, <span class="boldface"><?php echo $name_you ?></span>. It will be <span class="boldface"><?php echo $years_you ?></span> years, <span class="boldface"><?php echo $days_you ?></span> day(s), <span class="boldface"><?php echo $hours_you ?></span> hour(s), <span class="boldface"><?php echo $minutes_you ?></span> minute(s), and <span class="boldface"><?php echo $seconds_you ?></span> second(s) until YOU celebrate your personal centennial. Am I invited to the party?</p>
+ <p>You can try additional birthdates above without refreshing the page.</p>
  </div>	
 		
  <?php		

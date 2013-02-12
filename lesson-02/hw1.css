@@ -41,7 +41,7 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 	width: 960px;
 	margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout */
 	background-color: #FFF;
-	background-image: url(spacer.gif);
+	background-image: url(spacer_hw1.gif);
 	background-repeat: repeat-y;
 	background-position: left top;
 }
@@ -128,6 +128,7 @@ ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* this changes the background
 	float: left;
 	margin-right: 8px;
 }
+
 .clearfloat { /* this class can be placed on a <br /> or empty div as the final element following the last floated div (within the #container) if the #footer is removed or taken out of the #container */
 	clear:both;
 	height:0;
@@ -147,8 +148,3 @@ ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* this changes the background
 .center {
 	text-align:center;
 }
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 71732e5fa8c0c65e704463c0862c44517360b3e1

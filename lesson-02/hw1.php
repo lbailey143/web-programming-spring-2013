@@ -2,9 +2,9 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Advanced Web Programming with PHP &amp; MySQL</title>
+<title>About Me</title>
 
-<link href="css_lrb.css" rel="stylesheet" type="text/css">
+<link href="hw1.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -13,27 +13,19 @@
   <div class="header"><!-- end .header -->Advanced Web Programming ~ Lynn Bailey ~ Section 5250</div>
   <div class="sidebar1">
     <ul class="nav">
-      <li><a href="index.php">about me</a></li>
-      <li><a href="hw2.php">hw2 ~ about you</a></li>
-      <li><a href="#">assignment y</a></li>
-      <li><a href="#">assignment z</a></li>
-      <li><a href="#">final project</a></li>
+      <li><a href="bootstrap/index.html">Home</a></li>
+      <li><a href="hw1.php">About Me</a></li>
+      <li><a href="hw2.php">About You</a></li>
+      <li><a href="#">Assignment z</a></li>
+      <li><a href="#">Final Project</a></li>
     </ul>
     <p class="checkers"><a href="http://validator.w3.org/check?uri=referer">Check HTML</a></p>
     <p class="checkers"><a href="http://jigsaw.w3.org/css-validator/check/referer">
     Check CSS</a></p>
-<<<<<<< HEAD
     <p class="center"><img src="lrb.png" width="88" height="169" alt="Lynn Bailey" title="Lynn Bailey"></p>
     </div>
     <!-- end .sidebar1 -->
      
-=======
-    <p>&nbsp;</p>
-    <p class="center"><img src="lrb.png" width="88" height="169" alt="Lynn Bailey" title="Lynn Bailey"></p>
-    <!-- End .sidebar1 --></div>
-    
-  <!-- Begin .content -->  
->>>>>>> 71732e5fa8c0c65e704463c0862c44517360b3e1
   <div class="content">
     <h1>Just the facts, friends!</h1>
     <p>I'm a retired school administrator who just can't seem to get the retirement part right. I'm working a 40 hour bridge job, serving on several boards and committees, managing a senior community, and taking SRJC online courses. </p>
